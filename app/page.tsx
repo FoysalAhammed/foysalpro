@@ -17,6 +17,7 @@ import AllFeatures from "@/components/AllFeatures";
 import CustomerReview from "@/components/CustomerReview";
 import MobileFirst from "@/components/MobileFirst";
 import Scrolltopbtn from "@/components/Scrolltopbtn";
+import ScrollContext from "@/components/ScrollContext";
 
 
 const Home = async () => {
@@ -47,14 +48,14 @@ const Home = async () => {
   
   return (
 <>
-
-<section>
+<ScrollContext>
+<div>
       <Navbar/>
       {/* <Categories /> */}
       <Hero  />
       <StunningDemos  />
       <AllProducts  />
-    </section>
+    </div>
     <WhyChoseUs/>
     <PageRight  />
     <ReadyToUse/>
@@ -68,7 +69,10 @@ const Home = async () => {
      <MobileFirst/> 
      <JoinUs/>
     <Footer/>  
+    
   <Scrolltopbtn/>
+
+  </ScrollContext>
    
 </>
   )

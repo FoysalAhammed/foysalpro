@@ -21,7 +21,7 @@ const Hero = (props: Props) => {
           </div>
           <div className="relative -z-0 mt-[-4rem]  items-center justify-center lg:flex">
             <img
-              src="/herohero.jpg"
+              src="/herohero.png"
               className="color:transparent"
               alt=""
               width="1400"

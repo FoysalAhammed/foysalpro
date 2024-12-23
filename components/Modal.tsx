@@ -20,7 +20,7 @@ export default function Modal({ children }: { children: ReactNode }) {
     }, [onDismiss, overlay]);
 
     return (
-        <div ref={overlay} className="modal bg-black" onClick={(e) => handleClick(e)}>
+        <div ref={overlay} className="modal bg-black" data-lenis-prevent onClick={(e) => handleClick(e)}>
             <button type="button" onClick={onDismiss} className="absolute top-4 right-8">
                 <Image src="/close.svg" width={17} height={17} alt="close" />
             </button>

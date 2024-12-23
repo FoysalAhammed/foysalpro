@@ -1,26 +1,4 @@
-export const NavLinks = [
-  { href: '/inspiration', key: 'Inspiration', text: 'Inspiration' },
-  { href: '/', key: 'Find Projects', text: 'Find Projects' },
-  { href: '/', key: 'Learn Development', text: 'Learn Development' },
-  { href: '/', key: 'Career Advancement', text: 'Career Advancement' },
-  // { href: '/profiles', key: 'Profile', text: 'Profile' }
-];
 
-export const categoryFilters = [
-  "Frontend",
-  "Backend",
-  "Full-Stack",
-  "Mobile",
-  "UI/UX",
-  "Game Dev",
-  "DevOps",
-  "Data Science",
-  "Machine Learning",
-  "Cybersecurity",
-  "Blockchain",
-  "E-commerce",
-  "Chatbots"
-]
 
 export const footerLinks = [
   {
@@ -223,18 +201,6 @@ export const dummyData = {
       avatarUrl: 'https://lh3.googleusercontent.com/a/ACg8ocJ-unlBnGPKWjtT1qawZjU2pLDDTBkIRGtkqO6sRCYq8gI=s96-c'        // Will be replaced with a valid User ID during testing
     },
     {
-      title: "Ai FORM BUILDER",
-      description: "Create a dynamic web application using React.js and Next.js for server-side rendering, backed by Express for API integration. Enhance the user interface with responsive and stylish designs using Tailwind CSS. This project combines the efficiency of Next.js for seamless navigation, React for interactive components, Express for backend functionality, and Tailwind CSS for a modern and responsive UI. Elevate user experience through fast-loading pages, server-side rendering, and a visually appealing design, making it an ideal solution for robust and performant web applications.",
-      image: "/aiform.png",
-      liveSiteUrl: "https://ai-form-builder-foysal.vercel.app",
-      githubUrl: "https://github.com/FoysalAhammed/Ai-Form-Builder",
-      category: "website",
-      id: 'user_01H9W40KBJR1YXQ4HS23JY5TC666',
-      email: 'hanif.mia2233@gmail.com',
-      name: 'Foysal Ahammed',
-      avatarUrl: 'https://lh3.googleusercontent.com/a/ACg8ocJ-unlBnGPKWjtT1qawZjU2pLDDTBkIRGtkqO6sRCYq8gI=s96-c'        // Will be replaced with a valid User ID during testing
-    },
-    {
       title: "FoodBudz Landing Page",
       description: "Create a dynamic web application using React.js and Next.js for server-side rendering, backed by Express for API integration. Enhance the user interface with responsive and stylish designs using Tailwind CSS. This project combines the efficiency of Next.js for seamless navigation, React for interactive components, Express for backend functionality, and Tailwind CSS for a modern and responsive UI. Elevate user experience through fast-loading pages, server-side rendering, and a visually appealing design, making it an ideal solution for robust and performant web applications.",
       image: "/food2.png",
@@ -308,18 +274,6 @@ export const dummyData = {
       name: 'Foysal Ahammed',
       avatarUrl: 'https://lh3.googleusercontent.com/a/ACg8ocJ-unlBnGPKWjtT1qawZjU2pLDDTBkIRGtkqO6sRCYq8gI=s96-c'        // Will be replaced with a valid User ID during testing
     },
-    {
-      title: "Ticket Selling ",
-      description: "Create a dynamic web application using React.js and Next.js for server-side rendering, backed by Express for API integration. Enhance the user interface with responsive and stylish designs using Tailwind CSS. This project combines the efficiency of Next.js for seamless navigation, React for interactive components, Express for backend functionality, and Tailwind CSS for a modern and responsive UI. Elevate user experience through fast-loading pages, server-side rendering, and a visually appealing design, making it an ideal solution for robust and performant web applications.",
-      image: "/ticket.png",
-      liveSiteUrl: "https://ticketly-seven.vercel.app/",
-      githubUrl: "https://github.com/FoysalAhammed/Ticketly-NextJs",
-      category: "website",
-      id: 'user_01H9W40KBJR1YXQ4HS23JY5TC9',
-      email: 'hanif.mia2233@gmail.com',
-      name: 'Foysal Ahammed',
-      avatarUrl: 'https://lh3.googleusercontent.com/a/ACg8ocJ-unlBnGPKWjtT1qawZjU2pLDDTBkIRGtkqO6sRCYq8gI=s96-c'  
-    },
  
     {
       title: "Educarezone landing page ",
@@ -370,18 +324,7 @@ export const dummyData = {
       name: 'Foysal Ahammed',
       avatarUrl: 'https://lh3.googleusercontent.com/a/ACg8ocJ-unlBnGPKWjtT1qawZjU2pLDDTBkIRGtkqO6sRCYq8gI=s96-c'  
     },
-    {
-      title: "Job FinderBd",
-      description: "Create a dynamic web application using React.js and Next.js for server-side rendering, backed by Express for API integration. Enhance the user interface with responsive and stylish designs using Tailwind CSS. This project combines the efficiency of Next.js for seamless navigation, React for interactive components, Express for backend functionality, and Tailwind CSS for a modern and responsive UI. Elevate user experience through fast-loading pages, server-side rendering, and a visually appealing design, making it an ideal solution for robust and performant web applications.",
-      image: "/jobfinder1.png",
-      liveSiteUrl: "https://jobfindbd.netlify.app/",
-      githubUrl: "https://github.com/FoysalAhammed/Job-Finder-Website",
-      category: "website",
-      id: 'user_01H9W40KBJR1YXQ4HS23JY5TC14',
-      email: 'hanif.mia2233@gmail.com',
-      name: 'Foysal Ahammed',
-      avatarUrl: 'https://lh3.googleusercontent.com/a/ACg8ocJ-unlBnGPKWjtT1qawZjU2pLDDTBkIRGtkqO6sRCYq8gI=s96-c'        // Will be replaced with a valid User ID during testing
-    },
+
     {
       title: "Blog Post ",
       description: "Create a dynamic web application using React.js and Next.js for server-side rendering, backed by Express for API integration. Enhance the user interface with responsive and stylish designs using Tailwind CSS. This project combines the efficiency of Next.js for seamless navigation, React for interactive components, Express for backend functionality, and Tailwind CSS for a modern and responsive UI. Elevate user experience through fast-loading pages, server-side rendering, and a visually appealing design, making it an ideal solution for robust and performant web applications.",
@@ -395,18 +338,7 @@ export const dummyData = {
       avatarUrl: 'https://lh3.googleusercontent.com/a/ACg8ocJ-unlBnGPKWjtT1qawZjU2pLDDTBkIRGtkqO6sRCYq8gI=s96-c'  
     },
 
-    {
-      title: "Mod Io",
-      description: "Create a dynamic web application using React.js and Next.js for server-side rendering, backed by Express for API integration. Enhance the user interface with responsive and stylish designs using Tailwind CSS. This project combines the efficiency of Next.js for seamless navigation, React for interactive components, Express for backend functionality, and Tailwind CSS for a modern and responsive UI. Elevate user experience through fast-loading pages, server-side rendering, and a visually appealing design, making it an ideal solution for robust and performant web applications.",
-      image: "/modio1.png",
-      liveSiteUrl: "https://modifio-foysal.vercel.app",
-      githubUrl: "https://github.com/FoysalAhammed/Converter-Modify-NEXT",
-      category: "website",
-      id: 'user_01H9W40KBJR1YXQ4HS23JY5TC16',
-      email: 'hanif.mia2233@gmail.com',
-      name: 'Foysal Ahammed',
-      avatarUrl: 'https://lh3.googleusercontent.com/a/ACg8ocJ-unlBnGPKWjtT1qawZjU2pLDDTBkIRGtkqO6sRCYq8gI=s96-c'        // Will be replaced with a valid User ID during testing
-    },
+  
     {
       title: "Invoice Generator",
       description: "Create a dynamic web application using React.js and Next.js for server-side rendering, backed by Express for API integration. Enhance the user interface with responsive and stylish designs using Tailwind CSS. This project combines the efficiency of Next.js for seamless navigation, React for interactive components, Express for backend functionality, and Tailwind CSS for a modern and responsive UI. Elevate user experience through fast-loading pages, server-side rendering, and a visually appealing design, making it an ideal solution for robust and performant web applications.",

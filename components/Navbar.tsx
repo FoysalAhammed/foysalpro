@@ -37,10 +37,7 @@ const Header = () => {
           <li>
             <a href="#contact">Contact</a>
           </li>
-          <li>
-            <a href="#"
-            target="_blank">Inspiration</a>
-          </li>
+       
         </ul>
       </nav>
       <div typeof="button" className="light_skew_hover">

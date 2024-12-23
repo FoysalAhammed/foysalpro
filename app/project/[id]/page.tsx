@@ -3,16 +3,8 @@ import Link from "next/link"
 import Modal from "@/components/Modal"
 import RelatedProjects from "@/components/RelatedProjects"
 import { dummyData } from "@/constants"
+import ScrollProvider from "@/components/ScrollContext"
 
-interface ProjectInterfacee {
-    title: string;
-    description: string;
-    image: string;
-    liveSiteUrl: string ;
-    githubUrl: string ;
-    category: string;
-    id: string;
-}
 const Project= async ({ params: { id } }: { params: { id: string } }  ) => {
     // const session = await getCurrentUser()
     // const result = await getProjectDetails(id) as { project?: ProjectInterface}
@@ -36,6 +28,7 @@ const findProjectById = (projectId: string) => {
 
     return (
         <Modal>
+       
             <section className="flexBetween gap-y-8 max-w-4xl max-xs:flex-col w-full">
                 <div className="flex-1 flex items-start gap-5 w-full max-xs:flex-col">
                     <Link href='/'>
@@ -111,7 +104,7 @@ const findProjectById = (projectId: string) => {
             </section>
 
             <RelatedProjects category={foundProject?.category} />
-            
+
         </Modal>
     )
 }
